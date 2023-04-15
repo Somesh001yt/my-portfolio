@@ -19,7 +19,7 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
+  stackoverflow,
   jobit,
   tripguide,
   threejs,
@@ -42,12 +42,14 @@ export const navLinks = [
 
 const services = [
   {
+    title: "Front-End Developer",
+    icon: mobile,
     title: "Web Developer Internship",
     icon: web,
   },
   {
-    title: "Front-End Developer",
-    icon: mobile,
+    title: "Web Developer Internship",
+    icon: web,
   },
 ];
 
@@ -96,19 +98,7 @@ const technologies = [
 ];
 
 const experiences = [
-  {
-    title: "Web Developer Internship",
-    company_name: "Null Class",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "August 2022 - November 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+ 
   {
     title: "Front-End Developer",
     company_name: "Max-Vision",
@@ -122,15 +112,28 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
+  {
+    title: "Web Developer Internship",
+    company_name: "Null Class",
+    icon: starbucks,
+    iconBg: "#383E56",
+    date: "August 2022 - November 2022",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
    
 ];
 
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Stack Overflow Clone",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Stack-Overflow Clone that allows users to search, ask, and add there queries or questions, with react and nodejs.",
     tags: [
       {
         name: "react",
@@ -145,13 +148,13 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: stackoverflow,
+    source_code_link: "https://github.com/Somesh001yt/StackOverflow",
   },
   {
-    name: "Job IT",
+    name: "Linkedin Clone",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "",
     tags: [
       {
         name: "react",
