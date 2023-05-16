@@ -19,11 +19,11 @@ import {
   starbucks,
   tesla,
   shopify,
-  stackoverflow,
   jobit,
   tripguide,
   threejs,
 } from "../assets";
+import stackoverflow from '../assets/stackoverflow.png'
 
 export const navLinks = [
   {
@@ -43,8 +43,6 @@ export const navLinks = [
 const services = [
   {
     title: "Front-End Developer",
-    icon: mobile,
-    title: "Web Developer Internship",
     icon: web,
   },
   {

@@ -10,7 +10,7 @@ const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] lg:w-[520px] w-full'>
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-      className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
+      className='w-full blue-text-gradient p-[1px] rounded-[20px] shadow-card'
     >
       <div
         options={{
@@ -18,7 +18,7 @@ const ServiceCard = ({ index, title, icon }) => (
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary rounded-[20px] py-5 px-12 lg:w-[520px] min-h-[280px] flex justify-evenly items-center flex-col'
+        className='bg-blue-300 rounded-[20px] py-5 px-12 lg:w-[520px] min-h-[280px] flex justify-evenly items-center flex-col'
       >
         <img
           src={icon}
@@ -45,7 +45,7 @@ const About = () => {
 
    <motion.p
    variants={fadeIn('', '', 0.1, 1)}
-   className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+   className='mt-4 text-blue-300 text-[17px] max-w-3xl leading-[30px]'
    >
    Hi I'm a Front-End developer with experience in JavaScript and
         and expertise in frameworks like React, Angular, and
