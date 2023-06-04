@@ -19,11 +19,13 @@ import {
   starbucks,
   tesla,
   shopify,
-  jobit,
   tripguide,
   threejs,
 } from "../assets";
 import stackoverflow from '../assets/stackoverflow.png'
+import mapty from '../assets/mapty.png'
+import download from '../assets/company/download.png'
+
 
 export const navLinks = [
   {
@@ -100,7 +102,7 @@ const experiences = [
   {
     title: "Front-End Developer",
     company_name: "Max-Vision",
-    icon: tesla,
+    icon: download,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - present",
     points: [
@@ -113,7 +115,7 @@ const experiences = [
   {
     title: "Web Developer Internship",
     company_name: "Null Class",
-    icon: starbucks,
+    icon: download,
     iconBg: "#383E56",
     date: "August 2022 - November 2022",
     points: [
@@ -150,9 +152,9 @@ const projects = [
     source_code_link: "https://github.com/Somesh001yt/StackOverflow",
   },
   {
-    name: "Linkedin Clone",
+    name: "Mapty",
     description:
-      "",
+      "Mapty  is a fitness app that allows users to save and track their running and cycling routines on an interactive map.",
     tags: [
       {
         name: "react",
@@ -167,29 +169,29 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: mapty,
+    source_code_link: "https://github.com/Somesh001yt/Mapty",
   },
   {
-    name: "Trip Guide",
+    name: "Linkedin",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "It is a replica of the well-known online job board from LinkedIn, where users must first log in before posting.",
     tags: [
       {
-        name: "nextjs",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "firebase",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Somesh001yt/linkedin-clone"
   },
 ];
 
